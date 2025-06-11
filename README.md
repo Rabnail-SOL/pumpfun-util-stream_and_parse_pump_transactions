@@ -2,6 +2,7 @@
 
 This project streams Pump.fun transactions from gRPC, parsing both Pump.fun and Token Program instructions in real-time. It efficiently decodes transaction data, extracts meaningful insights, and structures the parsed instructions into a serializable format for easy processing and analysis. The implementation ensures smooth integration with Solana’s ecosystem, leveraging Rust’s strong type safety and performance for handling high-throughput transaction streams.
 
+
 ```
 $ cargo run -- --endpoint <endpoint> --x-token <token>
 ```
